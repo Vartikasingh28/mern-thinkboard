@@ -46,17 +46,13 @@ git clone https://github.com/Vartikasingh28/mern-thinkboard.git
 cd mern-thinkboard
 Start Backend
 
-bash
-Copy
-Edit
+
 cd backend
 npm install
 node server.js
 Start Frontend
 
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 npm run dev
@@ -68,3 +64,7 @@ GET /api/notes – Fetch all notes
 POST /api/notes – Create a new note
 
 DELETE /api/notes/:id – Delete a note
+
+https://mern-thinkboard-4-spr6.onrender.com
+
+https://mern-thinkboard-8.onrender.com
