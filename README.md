@@ -34,9 +34,6 @@ mern-thinkboard/
 │ ├── pages/
 │ └── main.jsx
 
-yaml
-Copy
-Edit
 
 ---
 
