@@ -2,6 +2,9 @@
 
 A full-stack Notes App built using the **MERN** stack (MongoDB, Express, React, Node.js). It allows users to create, read, and delete notes easily.
 
+https://mern-thinkboard-4-spr6.onrender.com
+
+https://mern-thinkboard-8.onrender.com
 ---
 
 ## 🚀 Features
@@ -65,6 +68,4 @@ POST /api/notes – Create a new note
 
 DELETE /api/notes/:id – Delete a note
 
-https://mern-thinkboard-4-spr6.onrender.com
 
-https://mern-thinkboard-8.onrender.com
