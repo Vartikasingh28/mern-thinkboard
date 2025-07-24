@@ -1,43 +1,73 @@
-<h1 align="center">📝 MERN Stack Note Taking App ✨</h1>
+# 📝 MERN ThinkBoard - Notes App
 
-
-Highlights:
-
-- 🧱 Full-Stack App Built with the MERN Stack (MongoDB, Express, React, Node)
-- ✨ Create, Update, and Delete Notes with Title & Description
-- 🛠️ Build and Test a Fully Functional REST API
-- 🚀 Completely Responsive UI
-- 🌐 Explore HTTP Methods, Status Codes & SQL vs NoSQL
-- 📦 Deployment Guide Included — Add the Live App to Your Resume
-- 📚 Designed for Absolute Beginners
+A full-stack Notes App built using the **MERN** stack (MongoDB, Express, React, Node.js). It allows users to create, read, and delete notes easily.
 
 ---
 
-## 🧪 .env Setup
+## 🚀 Features
 
-### Backend (`/backend`)
+- Create, Read, and Delete Notes
+- React.js Frontend with Axios
+- Node.js + Express.js Backend API
+- MongoDB Database
+- Clean UI & RESTful APIs
 
-```
-MONGO_URI=<your_mongo_uri>
+---
 
-UPSTASH_REDIS_REST_URL=<your_redis_rest_url>
-UPSTASH_REDIS_REST_TOKEN=<your_redis_rest_token>
+## 🛠 Tech Stack
 
-NODE_ENV=development
-```
+- **Frontend**: React.js, Axios, Vite  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB Atlas  
 
-## 🔧 Run the Backend
+---
 
-```
+## 📁 Folder Structure
+
+mern-thinkboard/
+├── backend/ # Express server
+│ ├── models/
+│ ├── routes/
+│ └── server.js
+├── frontend/ # React app
+│ ├── components/
+│ ├── pages/
+│ └── main.jsx
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Vartikasingh28/mern-thinkboard.git
+cd mern-thinkboard
+Start Backend
+
+bash
+Copy
+Edit
 cd backend
 npm install
-npm run dev
-```
+node server.js
+Start Frontend
 
-## 💻 Run the Frontend
-
-```
+bash
+Copy
+Edit
 cd frontend
 npm install
 npm run dev
-```
+Make sure MongoDB connection string is correctly set in backend (in db.js or server.js).
+
+📦 API Endpoints
+GET /api/notes – Fetch all notes
+
+POST /api/notes – Create a new note
+
+DELETE /api/notes/:id – Delete a note
